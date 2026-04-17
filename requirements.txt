@@ -4,8 +4,8 @@ pyephem
 https://github.com/scottransom/pyslalib/archive/master.zip
 starlink-pyast
 palpy
-kapteyn<=2.3; python_version < "3"
-http://www.astro.rug.nl/software/kapteyn/kapteyn-3.0.tar.gz; python_version >= "3"
+http://www.astro.rug.nl/software/kapteyn/kapteyn-3.4.tar.gz
+numpy<2.3 # kapteyn doesn't work with >=2.3 due to deprecation of NPY_OWNDATA
 skyfield
 click
 matplotlib
