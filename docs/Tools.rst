@@ -59,18 +59,6 @@ PySlalib
 `f2py <http://www.scipy.org/F2py>`_ and `numpy <http://numpy.scipy.org/>`_
 wrappers of the fortran version of the astro library `SLALIB <http://www.starlink.rl.ac.uk/docs/sun67.htx/sun67.html>`_
 
-PyTPM
-+++++
-
-`pytpm <http://phn.github.com/pytpm/>`_ is `Cython <http://cython.org>`_ interface to the
-`TPM <http://www.sal.wisc.edu/~jwp/astro/tpm/tpm.html>`_ C library with a high-level
-``convert.convertv6`` function interface. Unmaintained.
-
-We are using the version from github main.
-
-Note that ``pytpm`` is unmaintained and is known to give incorrect results in this case:
-https://github.com/phn/pytpm/issues/2
-
 Licenses and Features
 ---------------------
 
@@ -91,7 +79,6 @@ pyast             LGPL          LGPL          Yes   Yes
 pyephem           LGPL          LGPL          No    Yes
 pyslalib          GPL           GPL           No    Yes
 pysofa            MIT           SOFA          No    Yes
-pytpm             BSD           ???           No    Yes
 ================= ============= ============= ===== ======
 
 Notes:
@@ -99,8 +86,6 @@ Notes:
 * The `SOFA License <http://www.iausofa.org/tandc.html>`_ is considered non-free (see discussion `here <https://groups.google.com/forum/?fromgroups=#!topic/astropy-dev/QVpMZFlsQUo>`_).
 
 Please report any inaccuracies, especially concerning the license status.
-
-The following packages have been removed from the ``coordinates-benchmark``:
 
 Other tools that are currently not included
 +++++++++++++++++++++++++++++++++++++++++++
