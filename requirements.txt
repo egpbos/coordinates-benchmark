@@ -1,7 +1,6 @@
 git+http://github.com/astropy/astropy.git#egg=astropy
 novas
 pyephem
-https://github.com/scottransom/pyslalib/archive/master.zip
 starlink-pyast
 palpy
 http://www.astro.rug.nl/software/kapteyn/kapteyn-3.4.tar.gz

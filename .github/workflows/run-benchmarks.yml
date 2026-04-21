@@ -25,7 +25,6 @@ jobs:
       run: |
         # Non declared build dependencies
         python -m pip install Cython
-        # install numpy outside of requirements, since pyslalib doesn't declare it as a dependency
         python -m pip install "numpy<2.3" # kapteyn doesn't work with >=2.3 due to deprecation of NPY_OWNDATA
         # Tools to benchmark
         python -m pip install -r requirements.txt

@@ -51,14 +51,6 @@ PyEphem
 `xephem <http://www.clearskyinstitute.com/xephem/>`_ coordinate routines,
 which are interfaced as C extensions. Currently a re-write using Cython is underway in the `version4` branch on github.
 
-PySlalib
-++++++++
-
-`pyslalib <https://github.com/scottransom/pyslalib>`_
-
-`f2py <http://www.scipy.org/F2py>`_ and `numpy <http://numpy.scipy.org/>`_
-wrappers of the fortran version of the astro library `SLALIB <http://www.starlink.rl.ac.uk/docs/sun67.htx/sun67.html>`_
-
 Licenses and Features
 ---------------------
 
@@ -77,7 +69,6 @@ novas             Public Domain Public Domain No    Yes
 palpy             GPL           GPL           Some  Yes
 pyast             LGPL          LGPL          Yes   Yes
 pyephem           LGPL          LGPL          No    Yes
-pyslalib          GPL           GPL           No    Yes
 pysofa            MIT           SOFA          No    Yes
 ================= ============= ============= ===== ======
 
