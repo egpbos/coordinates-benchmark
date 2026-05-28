@@ -1,0 +1,8 @@
+2026-05-28 11:44:07	INFO	::casa	
+2026-05-28 11:44:07	SEVERE	::casa	
+2026-05-28 11:44:07	SEVERE	::casa	
+2026-05-28 11:44:07	SEVERE	::casa	No data or measures updates could be done because there is no network connection.
+2026-05-28 11:44:07	SEVERE	::casa	The expected casa data was not found at measurespath. CASA may still work if the data can be found in datapath.
+2026-05-28 11:44:07	SEVERE	::casa	The expected measures data was not found at measurespath. CASA may still work if the data can be found in datapath.
+2026-05-28 11:44:07	SEVERE	::casa	visit https://casadocs.readthedocs.io/en/stable/notebooks/external-data.html for more information
+2026-05-28 11:44:07	SEVERE	::casa	
