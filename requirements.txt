@@ -3,7 +3,6 @@ novas
 pyephem
 starlink-pyast
 palpy
-http://www.astro.rug.nl/software/kapteyn/kapteyn-3.4.tar.gz
 skyfield
 click
 matplotlib

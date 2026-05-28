@@ -12,12 +12,6 @@ astropy.coordinates
 `astropy.coordinates <http://astropy.readthedocs.org/en/latest/coordinates/>`_:
 Uses `erfa <https://github.com/liberfa/erfa>`_ for some computations, but re-implements many things using Python / numpy.
 
-kapteyn.celestial
-+++++++++++++++++
-
-`kapteyn.celestial <http://www.astro.rug.nl/software/kapteyn/celestial.html>`_:
-Part of the `Kapteyn <http://www.astro.rug.nl/software/kapteyn/>`_ package.
-
 NOVAS
 +++++
 
@@ -64,7 +58,6 @@ Licenses and Features
 Package           License       Lib License   Array Alt/Az
 ================= ============= ============= ===== ======
 astropy           BSD           ---           No    No
-kapteyn.celestial BSD           ---           Yes   No
 novas             Public Domain Public Domain No    Yes
 palpy             GPL           GPL           Some  Yes
 pyast             LGPL          LGPL          Yes   Yes
