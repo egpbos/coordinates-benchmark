@@ -25,7 +25,7 @@ CELESTIAL_CONVERSIONS = [dict(zip(['in', 'out'], _))
                          for _ in CELESTIAL_CONVERSIONS
                          if _[0] != _[1]]
 
-TOOLS = sorted('astropy kapteyn novas pyast palpy pyephem pyslalib pytpm skyfield'.split())
+TOOLS = sorted('astropy novas pyast palpy pyephem skyfield'.split())
 TOOL_PAIRS = [_ for _ in itertools.product(TOOLS, TOOLS)
               if _[0] < _[1]]
 
@@ -136,7 +136,7 @@ def celestial_results(tool, systems, symmetric=False):
 
 # TODO: switch internally to radians and get rid of this helper function!
 def angular_separation_deg_to_arcsec(lon1, lat1, lon2, lat2):
-    from astropy.coordinates.angle_utilities import angular_separation
+    from astropy.coordinates import angular_separation
     from astropy.coordinates import Angle
     lon1 = np.radians(lon1)
     lat1 = np.radians(lat1)

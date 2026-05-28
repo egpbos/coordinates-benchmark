@@ -3,6 +3,7 @@
 .pydevproject
 .settings
 .idea
+.vscode
 *.html
 *.pyc
 *~

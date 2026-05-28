@@ -14,9 +14,7 @@ jobs:
     runs-on: ubuntu-latest
     strategy:
       matrix:
-        astropy-version: [4.1.*]
-        python-version: [3.7]
-        numpy-version: [1.17.4]
+        python-version: [3.11]
 
     steps:
     - uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683  # v4.2.2
@@ -25,10 +23,8 @@ jobs:
         python-version: ${{ matrix.python-version }}
     - name: Install dependencies
       run: |
-        python -m pip install "numpy==$NUMPY_VERSION"
-        python -m pip install "astropy==$ASTROPY_VERSION"
         # Non declared build dependencies
-        python -m pip install Cython
+        python -m pip install Cython numpy
         # Tools to benchmark
         python -m pip install -r requirements.txt
         # Prefetch as workaround for https://github.com/skyfielders/python-skyfield/issues/262
