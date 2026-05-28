@@ -4,5 +4,7 @@ pyephem
 starlink-pyast
 palpy
 skyfield
+casatools
+casadata
 click
 matplotlib
