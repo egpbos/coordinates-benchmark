@@ -24,8 +24,7 @@ jobs:
     - name: Install dependencies
       run: |
         # Non declared build dependencies
-        python -m pip install Cython
-        python -m pip install "numpy<2.3" # kapteyn doesn't work with >=2.3 due to deprecation of NPY_OWNDATA
+        python -m pip install Cython numpy
         # Tools to benchmark
         python -m pip install -r requirements.txt
         # Prefetch as workaround for https://github.com/skyfielders/python-skyfield/issues/262
