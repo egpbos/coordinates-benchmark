@@ -102,6 +102,18 @@ Skyfield
 Note that Skyfield now can do AltAz to RaDec transforms:
 https://github.com/brandon-rhodes/python-skyfield/issues/13#issuecomment-72392700
 
+CASA measures
++++++++++++++
+
+`CASA <https://casa.nrao.edu/>`_ (Common Astronomy Software Applications) is the
+primary data-reduction package for radio astronomy produced by an international
+consortium of scientific institutes led by NRAO.  Its ``measures`` tool
+(`casatools.measures <https://casadocs.readthedocs.io/en/stable/api/tt/casatools.measures.html>`_)
+provides coordinate-frame transformations backed by `casacore
+<https://casacore.github.io/casacore/>`_.  The Python interface is available as
+the ``casatools`` pip package, with the required ephemeris/IERS data bundled in
+the companion ``casadata`` package.
+
 
 Methods
 -------
