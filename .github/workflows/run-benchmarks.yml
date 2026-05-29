@@ -41,7 +41,7 @@ jobs:
         # Configure CASA datapath in ~/.casa/config.py
         # We use double quotes so the shell expands $HOME and $GITHUB_WORKSPACE
         echo "measurespath = '$GITHUB_WORKSPACE/casarundata'" >> ~/.casa/config.py
-        echo "datapath = '$GITHUB_WORKSPACE/casarundata'" >> ~/.casa/config.py
+        echo "datapath = [ '$GITHUB_WORKSPACE/casarundata', ]" >> ~/.casa/config.py
         echo "measures_auto_update = True" >> ~/.casa/config.py
         echo "data_auto_update = True" >> ~/.casa/config.py
 
